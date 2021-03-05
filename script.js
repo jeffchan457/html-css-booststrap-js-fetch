@@ -54,7 +54,7 @@ const createImage = (id, src, alt) => {
         // create new image element
         let newImage = document.createElement("img"); // <img />
         newImage.setAttribute("id", id);
-        newImage.setAttribute("class", "d-block w-10");
+        newImage.setAttribute("class", "d-block w-10 auto-margin");
         newImage.setAttribute("src", src);
         newImage.setAttribute("alt", alt);
 

@@ -1,3 +1,7 @@
 body {
     background-color: cadetblue;
 }
+
+.auto-margin {
+    margin: auto;
+}
